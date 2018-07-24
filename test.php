@@ -30,7 +30,7 @@
 
 
     <?php
-    // Lesson One
+    // 1. Variable
       // $myvar = "this is my variable";
       // $mynumber = 5;
       //   $mynumber2 = 3;
@@ -38,7 +38,7 @@
       //   $name = "Jake";
       //   echo "Hello, " . $name;
 
-    // Lesson Two
+    // 2. If/Else
     //   $loggedIn = false;
     //
     //   if ($loggedIn == true) {
@@ -48,8 +48,35 @@
     //     echo "Please log in";
     //   }
 
+    // $people = array("Stephen", "Bob", "Kate");
+    // $numbers = array(5, 3, 7);
+    // $sums = 0;
 
-     ?>
+    // foreach ($people as $person) {
+    //   echo $person . '';
+    // }
+
+    // foreach ($numbers as $number) {
+    //   $sums = $sums + $number;
+    //
+    // }
+    // echo $sums;
+    //
+    //
+    //
+
+    echo "<h1>
+    \"Date/Time\"
+    </h1>";
+
+    date_default_timezone_set('UTC');
+
+
+    echo "the time is" . " " . date('h:i a, l, F jS Y e');
+
+
+    ?>
+    <br>
      <form action="process.php" method="post">
 
        Enter Your Name <input type="text" name="name" value="">
